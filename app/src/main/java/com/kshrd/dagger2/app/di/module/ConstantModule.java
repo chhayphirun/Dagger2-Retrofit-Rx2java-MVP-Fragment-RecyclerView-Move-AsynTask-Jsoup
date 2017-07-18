@@ -1,6 +1,6 @@
-package com.kshrd.dagger2.app.di;
+package com.kshrd.dagger2.app.di.module;
 
-import javax.inject.Named;
+import com.kshrd.dagger2.app.di.qualifier.ApiKey;
 
 import dagger.Module;
 import dagger.Provides;
