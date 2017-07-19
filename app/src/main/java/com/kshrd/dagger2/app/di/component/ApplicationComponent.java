@@ -1,7 +1,7 @@
 package com.kshrd.dagger2.app.di.component;
 
-import com.kshrd.dagger2.DetailActivity;
-import com.kshrd.dagger2.MainActivity;
+import com.kshrd.dagger2.ui.detail.DetailActivity;
+import com.kshrd.dagger2.ui.main.MainActivity;
 import com.kshrd.dagger2.app.di.module.ApplicationModule;
 import com.kshrd.dagger2.app.di.module.ConstantModule;
 import com.kshrd.dagger2.app.di.module.PreferenceModule;
