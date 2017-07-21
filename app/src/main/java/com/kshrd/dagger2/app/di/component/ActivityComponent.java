@@ -5,6 +5,7 @@ import com.kshrd.dagger2.app.di.scope.PerActivity;
 import com.kshrd.dagger2.ui.detail.DetailActivity;
 import com.kshrd.dagger2.ui.detail.fragment.BlankFragment;
 import com.kshrd.dagger2.ui.main.MainActivity;
+import com.kshrd.dagger2.ui.movie.MovieActivity;
 
 import dagger.Component;
 import dagger.Module;
@@ -18,5 +19,6 @@ import dagger.Module;
 public interface ActivityComponent {
     void inject(MainActivity mainActivity);
     void inject(DetailActivity detailActivity);
+    void inject(MovieActivity movieActivity);
     void inject(BlankFragment blankFragment);
 }

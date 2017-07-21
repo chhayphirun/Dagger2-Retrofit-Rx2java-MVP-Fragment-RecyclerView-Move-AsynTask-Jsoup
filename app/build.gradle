@@ -25,8 +25,8 @@ android {
     sourceSets {
         main {
             file('src/main/res-screen')
-                .listFiles()
-                .each { res.srcDirs += it.path }
+                    .listFiles()
+                    .each { res.srcDirs += it.path }
 
             file('src/main/res-fragment')
                     .listFiles()
@@ -43,6 +43,7 @@ dependencies {
     })
 
 
+
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.google.dagger:dagger:2.11'
@@ -53,6 +54,7 @@ dependencies {
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'com.jakewharton:butterknife:8.7.0'
     compile 'com.android.support:support-v4:26.+'
+    compile 'org.jsoup:jsoup:1.10.3'
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.google.dagger:dagger-android-processor:2.11'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.11'
